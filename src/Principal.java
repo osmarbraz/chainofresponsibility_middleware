@@ -32,9 +32,13 @@ public class Principal {
         server.setMiddleware(middleware);
 
         // Utilizando a cadeia    
+        System.out.println("Usuários registrados");
+        System.out.println("admin@example.com/admin_pass");
+        System.out.println("user@example.com/user_pass");
+        System.out.println("");
         boolean success;
         do {
-            System.out.print("Entrada do e-mail (dmin@example.com/admin_passwd): ");
+            System.out.print("Entrada do e-mail: ");
             String email = reader.readLine();
             System.out.print("Entrada da senha: ");
             String password = reader.readLine();
