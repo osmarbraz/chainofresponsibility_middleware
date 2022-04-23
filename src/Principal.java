@@ -1,9 +1,9 @@
 
-import com.chainofresponsibility.Middleware;
-import com.chainofresponsibility.RoleCheckMiddleware;
-import com.chainofresponsibility.Server;
-import com.chainofresponsibility.ThrottlingMiddleware;
-import com.chainofresponsibility.UserExistsMiddleware;
+import com.chainofresponsibility.middleware.Middleware;
+import com.chainofresponsibility.middleware.RoleCheckMiddleware;
+import com.chainofresponsibility.server.Server;
+import com.chainofresponsibility.middleware.ThrottlingMiddleware;
+import com.chainofresponsibility.middleware.UserExistsMiddleware;
 
 import java.io.BufferedReader;
 import java.io.IOException;

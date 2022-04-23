@@ -1,4 +1,4 @@
-package com.chainofresponsibility;
+package com.chainofresponsibility.middleware;
 
 /**
  * Manipulador de Concreto.

@@ -1,5 +1,6 @@
-package com.chainofresponsibility;
+package com.chainofresponsibility.server;
 
+import com.chainofresponsibility.middleware.Middleware;
 import java.util.HashMap;
 import java.util.Map;
 

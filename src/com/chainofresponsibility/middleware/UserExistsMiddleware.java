@@ -1,4 +1,6 @@
-package com.chainofresponsibility;
+package com.chainofresponsibility.middleware;
+
+import com.chainofresponsibility.server.Server;
 
 /**
  * Manipulador de concreto.
